@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title>Mundo Quase Verde</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet" type="text/css">
+	<style>
+		body {
+			background-color: #00a650;
+		}
+		
+		h1 {
+			text-align: center;
+			color: white;
+			text-shadow: black 0.1em 0.1em 0.2em;
+			font-family: Oswald, sans-serif;
+		}
+		
+		h2 {
+			text-align: center;
+			text-shadow: lightgreen 0.05em 0.05em 0.25em;
+		}
+		
+		p {
+			font-size: 17px;
+		}
+		
+		hr {
+			color:black;
+			background-color:black;
+			border-color:black;
+		}
+		
+		.navbar-default {
+			background-color: #fff200;
+			border-color: #00a650;
+			font-size: 18px;
+		}
+		.navbar-default .navbar-nav >li > a {
+			color: #00a650;
+		}
+		.navbar-default .navbar-nav > li > a:hover,
+		.navbar-default .navbar-nav > li > a:focus {
+			color: #fff200;
+			background-color: #00a650;
+		}
+		.navbar-default .navbar-nav > .active > a, 
+		.navbar-default .navbar-nav > .active > a:hover, 
+		.navbar-default .navbar-nav > .active > a:focus {
+			color: #fff200;
+			background-color: #00a650;
+		}
+		.navbar-default .navbar-nav > .open > a, 
+		.navbar-default .navbar-nav > .open > a:hover, 
+		.navbar-default .navbar-nav > .open > a:focus {
+			color: #fff200;
+			background-color: #00a650;
+		}
+		.navbar-default .navbar-toggle:hover,
+		.navbar-default .navbar-toggle:focus {
+			background-color: #00a650;
+		}
+		.dropdown-menu {
+			background-color: #00a650;
+		}
+		.dropdown-menu > li > a {
+			color: #fff200;
+			font-size: 16px;
+		}
+		.dropdown-menu > li > a:hover,
+		.dropdown-menu > li > a:focus {
+			color: #00a650;
+			background-color: #fff200;
+		}
+		
+		.btn {
+			color: #fff200;
+			background-color: #00a650;
+		}
+		.btn:hover,
+		.btn:focus {
+			color: #00a650;
+			background-color: #fff200;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">INÍCIO</a></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PEDRAS E CRISTAIS<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="brutos.html">BRUTOS</a></li>
+							<li><a href="lapidados.html">LAPIDADOS</a></li>
+						</ul>
+					</li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">FORMAS DE CRISTAL<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="piramides.html">PIRÂMIDES</a></li>
+							<li><a href="bolas.html">BOLAS</a></li>
+							<li><a href="formas.html">FORMAS LIVRES</a></li>
+						</ul>
+					</li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">IMAGENS<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="ciganas.html">CIGANAS</a></li>
+							<li><a href="chinesas.html">CHINESAS</a></li>
+						</ul>
+					</li>
+					<li><a href="radiestesia.html">MATERIAL PARA RADIESTESIA</a></li>
+					<li><a href="galeria.html">GALERIA</a></li>
+					<li><a style="padding:5px;" href="https://www.facebook.com/pages/Mundo-Quase-Verde/354891111347602"><img height="40px" src="imagens/facebook.png" /></a></li>
+				
+					<audio id="musica" loop autoplay><source src="1-05 Anthem.mp3" type="audio/mpeg"></audio>
+					<button type="button" class="btn btn-default btn-lg" onclick="play_stop()"><span class="glyphicon glyphicon-music"></span></button>
+					<script>
+						function play_stop() {
+						var musica = document.getElementById("musica");
+						if (musica.paused) {
+							musica.play();
+						} else {
+							musica.pause();
+							musica.currentTime = 0;
+						}
+						}
+					</script>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 container">
+				<img class="col-xs-12" src="imagens/97733-m.png" />
+			</div>
+			<div class="col-md-6 container">
+				<hr>
+				<h1> MUNDO QUASE VERDE</h1>
+				<hr>
+				<h2>O Point de Paz & tranquilidade</h2>
+				<p>“<strong>Mundo quase Verde</strong>” definido como um espaço pequeno que se torna grande
+
+				pela energia que emana de cada pedra, cristal, símbolo esotérico, cada lembrança
+
+				diferenciada capaz de agradar todos os gostos. Agrega valor aos seus produtos é a
+
+				qualidade, afinal se procura fazer uma seleção minuciosa do que comercializa. Além
+
+				disso, os preços conferem diferencial à loja.</p>
+
+				<p>No local, diversas opções de lembranças delicadas e com personalidade,
+
+				voltadas para públicos específicos: turistas, fisioterapeutas, tarólogos, colecionadores de
+
+				cristais e terapeutas espirituais.</p>
+
+				<p>“<strong>Mundo quase Verde</strong>” fica na Rua do Catete, 348 - esquina com a Praça José
+
+				de Alencar. A loja fica aberta de 2ª a sábado, das 10 às 17:30h. Telefone de contato:
+
+				(21) 99744-9656. Os produtos também podem ser conferidos na Feira de Artesanato da
+
+				Rua do Lavradio, no primeiro sábado do mês.</p>
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	
+</body>
+</html>
